@@ -1,0 +1,13 @@
+{
+    "config": {
+        "app-version":{
+            "help": "Application Version",
+            "value": 1
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200
+        }
+    }
+}
